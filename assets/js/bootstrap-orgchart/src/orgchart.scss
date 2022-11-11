@@ -1,0 +1,173 @@
+$line-color: #aaa;
+$line-width: 2px;
+$node-margin: 20px;
+$node-width: 140px;
+
+@mixin line {
+    content: '';
+    position: absolute;
+    background-color: $line-color;
+}
+
+@mixin line-left {
+    @include line;
+    width: $line-width;
+    height: calc(100% + #{$node-margin} + #{$line-width});
+    left: calc(50% - #{$node-width / 2} - #{$node-margin / 2});
+    top: -$line-width / 2;
+}
+
+@mixin line-left-first {
+    @include line-left;
+    height: calc(100% + #{$node-margin * 1.5} + #{$line-width});
+    top: -$node-margin/2 - $line-width/2;
+}
+
+@mixin line-left-only {
+    @include line-left;
+    height: calc(50% + #{$node-margin * .5} + #{$line-width});
+    top: -$node-margin/2 - $line-width/2;
+}
+
+@mixin list-line-left {
+    @include line;
+    width: $node-margin / 2;
+    height: $line-width;
+    top: calc(50%);
+    left: calc(50% - #{$node-width / 2} - #{$node-margin / 2});
+}
+
+@mixin list-line-top {
+    @include line;
+    width: $node-width / 2;
+    height: $line-width;
+    bottom: -$node-margin / 2;
+    left: calc(50% - #{$node-width / 2});
+}
+
+.org-tree {
+    .node {
+        width: $node-width;
+        padding: 15px;
+        border: 1px solid $line-color;
+        border-radius: 2px;
+        position: relative;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+    }
+    .parent {
+        position: relative;
+        display: flex;
+        margin-bottom: $node-margin;
+        &:not(.collapsed):after {
+            // Builds the line down to children 
+            @include line;
+            width: $line-width;
+            height: $node-margin / 2;
+            bottom: 0;
+            left: 50%;
+            background-color: $line-color;
+            transform: translateY(100%);
+        }
+    }
+    .row {
+        .item {
+            // Styles for standard pyramid top lines to parent
+            &:first-child>.child {
+                &::after {
+                    left: 50%;
+                    width: 50%;
+                }
+            }
+            &:last-child>.child::after {
+                width: calc(50% + #{$line-width});
+            }
+            &:only-child>.child::after {
+                width: 0px;
+            }
+        }
+    }
+     .item>.child {
+        &:not(.root):before {
+            @include line;
+            left: 50%;
+            top: 0;
+            transform: translateY(-100%);
+            width: $line-width;
+            height: $node-margin / 2;
+        }
+        &:after {
+            @include line;
+            left: 0;
+            top: -$node-margin / 2;
+            transform: translateY(-100%);
+            height: $line-width;
+            width: 100%;
+        }
+    }
+    $breakpoints: (99999px 1) (1199px 2) (991px 4);
+    @each $breakpoint in $breakpoints {
+        $minWidth: nth($breakpoint, 1);
+        $col: nth($breakpoint, 2);
+        @media screen and (max-width: $minWidth) {
+            @for $i from 1 through $col {
+                .child-width-#{$i} {
+                    .item>.child {
+                        &:before,
+                        &:after {
+                            display: none;
+                        }
+                        .node:not(.root) {
+                            &:before {
+                                @include line-left
+                            }
+                            &::after {
+                                @include list-line-left;
+                            }
+                        }
+                    }
+                    .item:last-child:not(:only-child)>.child {
+                        .node:not(.root):before {
+                            height: calc(50% + #{$line-width});
+                        }
+                    }
+                    .item:only-child>.child {
+                        .node:not(.root):before {
+                            @include line-left-only;
+                        }
+                    }
+                    >.row {
+                        margin-left: -50%;
+                    }
+                    .node {
+                        margin-bottom: $node-margin;
+                    }
+                    .row {
+                        margin-left: $node-margin;
+                        margin-right: 0px;
+                        .item {
+                            &:first-child:not(:only-child)>.child {
+                                .node:not(.root)::before {
+                                    @include line-left-first;
+                                }
+                            }
+                            &:not(:last-child):before {
+                                @include line-left;
+                            }
+                        }
+                    }
+                    .parent {
+                        margin-bottom: 0px;
+                        display: block;
+                        &:not(.collapsed):before {
+                            @include list-line-top
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
