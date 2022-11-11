@@ -1,0 +1,708 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30522025100004,
+          -6.8948528209999722
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "Jenis" : "Tempat Peribadatan Kecil",
+        "Nama" : "Musala Miftahul Jannah",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Musala_Miftahul_jannah.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30292477400008,
+          -6.8948099369999341
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "Jenis" : "Tempat Peribadatan Kecil",
+        "Nama" : "Musala Asholihin",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Musala_Asholihin.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30338611500008,
+          -6.8963766699999383
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "Jenis" : "Tempat Pemakaman Umum",
+        "Nama" : "TPU Jagasara",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "TPU_Jagasara.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30228055700007,
+          -6.89428320199994
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 4,
+        "Jenis" : "Kantor Pemerintahan",
+        "Nama" : "Kantor Balai Dusun Karangsari",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Kantor_Balai_Dusun_Karangsari.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30219643700008,
+          -6.8941518819999601
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 5,
+        "Jenis" : "Tempat Peribadatan Besar",
+        "Nama" : "Masjid Nurul Iman",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Masjid_Nurul_Iman.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30227828900007,
+          -6.893679977999966
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 6,
+        "Jenis" : "Tempat Peribadatan Kecil",
+        "Nama" : "Musala Nurul Huda",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Musala_Nurul_Huda.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30216561200007,
+          -6.894258190999949
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 7,
+        "Jenis" : "Fasilitas Kesehatan",
+        "Nama" : "Posyandu Karangsari",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Posyandu_Karangsari.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30107514800005,
+          -6.8936902459999487
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 8,
+        "Jenis" : "Tempat Pendidikan TK",
+        "Nama" : "KOBER Cahaya Ananda",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "KOBER_Cahaya_ Ananda.jpg",
+        "Foto_2" : "KOBER_Cahaya_ Ananda_Foto2.jpg"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30104496800004,
+          -6.8938897419999421
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 9,
+        "Jenis" : "Tempat Pendidikan Dasar",
+        "Nama" : "SD Negeri Tegalsari II",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "SD_Negeri_Tegalsari_2.jpg",
+        "Foto_2" : "SD_Negeri_Tegalsari_2_Foto2.jpg"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30105963800008,
+          -6.8941434109999591
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 10,
+        "Jenis" : "Tempat Peribadatan Kecil",
+        "Nama" : "Musala Nurul Amal",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Musala_Nurul_Amal.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30094664300009,
+          -6.8932954259999519
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 11,
+        "Jenis" : "Tempat Pemakaman Umum",
+        "Nama" : "TPU Sangadipati",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "TPU_Sangadipati.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30132386500009,
+          -6.8929980069999601
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 12,
+        "Jenis" : "Cagar Budaya",
+        "Nama" : "Situs Sejarah dan Budaya Buyut Sangadipati",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Situs_Sejarah_dan_Budaya_Buyut_Sangadipati.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30644565400007,
+          -6.8967928229999416
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 13,
+        "Jenis" : "Tempat Pengisian Bahan Bakar",
+        "Nama" : "SPBU 34.454.22",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "SPBU_34.454.22.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30663657300005,
+          -6.8976354809999521
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 14,
+        "Jenis" : "Tempat Peribadatan Kecil",
+        "Nama" : "Musala Arrohmah",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Musala_Arrohmah.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30615166300004,
+          -6.8982553429999598
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 15,
+        "Jenis" : "Tempat Peribadatan Kecil",
+        "Nama" : "Musala",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Musala.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30763714900007,
+          -6.8978630029999408
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 16,
+        "Jenis" : "Tempat Peribadatan Kecil",
+        "Nama" : "Musala Al Hikmah",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Musala_Al_Hikmah.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30804709600005,
+          -6.8987060509999765
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 17,
+        "Jenis" : "Tempat Peribadatan Besar",
+        "Nama" : "Masjid Jami Al Falaah",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Masjid_Jami_Al_Falaah.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30811530500006,
+          -6.8988871819999531
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 18,
+        "Jenis" : "Kantor Pemerintahan",
+        "Nama" : "Kantor Desa Tegalsari",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Kantor_Desa_Tegalsari.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30877551600008,
+          -6.8996666039999468
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 19,
+        "Jenis" : "Tempat Peribadatan Kecil",
+        "Nama" : "Musala Nurul Iman",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Musala_Nurul_Iman.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30719123400007,
+          -6.8993748209999808
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 20,
+        "Jenis" : "Fasilitas Kesehatan",
+        "Nama" : "Posyandu",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Posyandu.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30891001800006,
+          -6.8989045829999327
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 21,
+        "Jenis" : "Fasilitas Kesehatan",
+        "Nama" : "Posyandu Mulyasari",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Posyandu_Mulyasari.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30899915100008,
+          -6.8989312039999504
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 22,
+        "Jenis" : "Tempat Pendidikan TK",
+        "Nama" : "KOBER Permata Bunda",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "KOBER_Permata_Bunda.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30587451900004,
+          -6.901115248999929
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 23,
+        "Jenis" : "Tempat Peribadatan Kecil",
+        "Nama" : "Musala Miftahul Falah",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Musala_Miftahul_Falah.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30587598800008,
+          -6.9001389849999555
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 24,
+        "Jenis" : "Tempat Peribadatan Kecil",
+        "Nama" : "Musala Al Ikhlas",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Musala_Al_Ikhlas.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30699026100007,
+          -6.8969069199999353
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 25,
+        "Jenis" : "Tempat Pendidikan Dasar",
+        "Nama" : "SD Negeri Tegalsari I",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "SD_Negeri_Tegalsari_1.jpg",
+        "Foto_2" : "SD_Negeri_Tegalsari_1_Foto2.jpg"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30692571000009,
+          -6.897143281999945
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 26,
+        "Jenis" : "Tempat Pendidikan Agama",
+        "Nama" : "MDTA PUI Tegalsari",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "MDTA_PUI_Tegalsari.jpg",
+        "Foto_2" : "MDTA_PUI_Tegalsari_Foto2.jpeg"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30569891600004,
+          -6.9001028129999327
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 27,
+        "Jenis" : "Kantor Pemerintahan",
+        "Nama" : "Kantor Balai Dusun Mulyasari",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Kantor_Balai_Dusun_Mulyasari.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30452119300008,
+          -6.9068916839999588
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 28,
+        "Jenis" : "Perdagangan Dan Jasa",
+        "Nama" : "Rest Area Cikebo",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Rest_Area_Cikebo.jpg",
+        "Foto_2" : "Rest_Area_Cikebo_Foto2.jpg"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30672121300006,
+          -6.8998145349999618
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 29,
+        "Jenis" : "Tempat Pemakaman Umum",
+        "Nama" : "TPU Galumpit",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "TPU_Galumpit.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30659168800008,
+          -6.8994116019999296
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 30,
+        "Jenis" : "Tempat Pemakaman Umum",
+        "Nama" : "TPU Galumpit",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "TPU_Galumpit.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30628489600008,
+          -6.8996502939999687
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 31,
+        "Jenis" : "Tempat Pemakaman Umum",
+        "Nama" : "TPU Galumpit",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "TPU_Galumpit.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30642575400009,
+          -6.8969573599999308
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 32,
+        "Jenis" : "Tempat Pengisian Bahan Bakar",
+        "Nama" : "SPBU 34.454.22",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "SPBU_34.454.22.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30289708600009,
+          -6.9012576199999671
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 33,
+        "Jenis" : "Rumah Makan",
+        "Nama" : "Abah Emo",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Rumah_Makan_Abah_Emo.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30334241000008,
+          -6.901143635999972
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 34,
+        "Jenis" : "Rumah Makan",
+        "Nama" : "Taman Sari",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Rumah_Makan_Taman_Sari.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30251506600007,
+          -6.9042354299999715
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 35,
+        "Jenis" : "Rumah Makan",
+        "Nama" : "Gemini",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Rumah_Makan_Gemini.jpg",
+        "Foto_2" : " "
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30300048500004,
+          -6.9016080209999586
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 36,
+        "Jenis" : "Wisata Buatan",
+        "Nama" : "Istana Stable Equestrian Park",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Istana_Stable_Equestrian_Park.jpg",
+        "Foto_2" : "Istana_Stable_Equestrian_Park_Foto2.jpg"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30513032800008,
+          -6.9068094359999463
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 37,
+        "Jenis" : "Tempat Peribadatan Kecil",
+        "Nama" : "Musala Raharja Khoerul Ummah",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Musala_Raharja_Khoerul_Ummah.jpg",
+        "Foto_2" : " "
+      }
+    }
+  ]
+}

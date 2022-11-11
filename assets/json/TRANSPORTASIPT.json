@@ -1,0 +1,62 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30524829800004,
+          -6.9005947379999384
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "Jenis" : "Jembatan",
+        "Nama" : "Cideres",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Jembatan_Cideres.jpg",
+        "Foto_2" : "Jembatan_Cideres_Foto2.jpg"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.29721117100007,
+          -6.8928792339999632
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "Jenis" : "Jembatan",
+        "Nama" : "Cimara",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Jembatan_Cimara.jpg",
+        "Foto_2" : "Jembatan_Cimara_Foto2.jpg"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30599834800006,
+          -6.8940737929999614
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "Jenis" : "Jembatan",
+        "Nama" : "Cilengkrang",
+        "Sumber" : "Survei Lapangan 2021",
+        "Foto_1" : "Jembatan_Cilengkrang.jpg",
+        "Foto_2" : "Jembatan_Cilengkrang_Foto2.jpg"
+      }
+    }
+  ]
+}

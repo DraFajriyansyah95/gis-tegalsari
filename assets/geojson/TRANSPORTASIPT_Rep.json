@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "TRANSPORTASIPT_Rep",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "Jenis": "Jembatan", "Nama": "Cideres", "Sumber": "Survei Lapangan 2021", "Foto_1": "Jembatan_Cideres", "Foto_2": "Jembatan_Cideres_Foto2", "RuleID": 1 }, "geometry": { "type": "Point", "coordinates": [ 108.305248298424218, -6.900594738461756 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "Jenis": "Jembatan", "Nama": "Cimara", "Sumber": "Survei Lapangan 2021", "Foto_1": "Jembatan_Cimara", "Foto_2": "Jembatan_Cimara_Foto2", "RuleID": 1 }, "geometry": { "type": "Point", "coordinates": [ 108.297211171020393, -6.892879234464353 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "Jenis": "Jembatan", "Nama": "Cilengkrang", "Sumber": "Survei Lapangan 2021", "Foto_1": "Jembatan_Cilengkrang", "Foto_2": "Jembatan_Cilengkrang_Foto2", "RuleID": 1 }, "geometry": { "type": "Point", "coordinates": [ 108.305998348390133, -6.894073793397673 ] } }
+]
+}

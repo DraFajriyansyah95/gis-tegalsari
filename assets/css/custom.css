@@ -1,0 +1,27 @@
+
+      body{
+        background-color: #1757a140;
+      }
+
+      .navbar,.footer{
+        background:  #1757a1!important;
+      }
+
+      .footer p{
+        color: white;
+      }
+
+      .carousel .carousel-caption {
+        background: #eeeefbc2;
+      }
+      .carousel .carousel-item {
+        height: 500px;
+      }
+
+      .carousel-item img {
+          position: absolute;
+          object-fit:cover;
+          top: 0;
+          left: 0;
+          min-height: 500px;
+      }

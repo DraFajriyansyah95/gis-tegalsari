@@ -1,0 +1,252 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30888488100004,
+          -6.8994946849999792
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Mulyasari",
+        "No_RW" : "RW 02",
+        "No_RT" : "RT 01",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30814621300004,
+          -6.8990659209999308
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Mulyasari",
+        "No_RW" : "RW 02",
+        "No_RT" : "RT 02",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30774205100005,
+          -6.9001979679999295
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Mulyasari",
+        "No_RW" : "RW 03",
+        "No_RT" : "RT 01",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30469664500004,
+          -6.9016958229999545
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 4,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Mulyasari",
+        "No_RW" : "RW 03",
+        "No_RT" : "RT 02",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30142677700007,
+          -6.8928939039999477
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 5,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Karangsari",
+        "No_RW" : "RW 06",
+        "No_RT" : "RT 01",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30136489900008,
+          -6.894316109999977
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 6,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Karangsari",
+        "No_RW" : "RW 06",
+        "No_RT" : "RT 02",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30315388600008,
+          -6.8936943949999545
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 7,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Karangsari",
+        "No_RW" : "RW 05",
+        "No_RT" : "RT 01",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30366827900008,
+          -6.8978773039999624
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 8,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Karangsari",
+        "No_RW" : "RW 05",
+        "No_RT" : "RT 02",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30588235800008,
+          -6.8958021819999544
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 9,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Mekarsari",
+        "No_RW" : "RW 04",
+        "No_RT" : "RT 02",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30533292100006,
+          -6.8975981399999569
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 10,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Mekarsari",
+        "No_RW" : "RW 04",
+        "No_RT" : "RT 01",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30746361700005,
+          -6.8962571769999386
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 11,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Mekarsari",
+        "No_RW" : "RW 01",
+        "No_RT" : "RT 01",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30790643300008,
+          -6.8980462519999719
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 12,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Mekarsari",
+        "No_RW" : "RW 01",
+        "No_RT" : "RT 02",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30496029800008,
+          -6.9063478119999786
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 13,
+        "Nama_Desa" : "Tegalsari",
+        "Nama_Dusun" : "Mulyasari",
+        "No_RW" : "RW 03",
+        "No_RT" : "BLOK CIKEBO",
+        "Sumber" : "Badan Pertanahan Nasional 2019"
+      }
+    }
+  ]
+}

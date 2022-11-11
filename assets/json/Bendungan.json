@@ -1,0 +1,23 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          108.30854619300004,
+          -6.896928197999955
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "Jenis" : "Bendungan",
+        "Nm_Bndgn" : "Cimonggor Jaga Sara",
+        "Sumber" : "Pekerjaan Sumber Daya Alam 2004",
+        "Foto_1" : "Bendungan_Cimongor_Jaga_Sara"
+      }
+    }
+  ]
+}
