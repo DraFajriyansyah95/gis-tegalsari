@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Bendungan",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 1, "Jenis": "Bendungan", "Nm_Bndgn": "Cimonggor Jaga Sara", "Sumber": "Pekerjaan Sumber Daya Alam 2004", "Foto_1": "Bendungan_Cimongor_Jaga_Sara", "RuleID": 1 }, "geometry": { "type": "Point", "coordinates": [ 108.308546193233695, -6.896928197559295 ] } }
-]
-}
