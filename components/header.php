@@ -25,7 +25,7 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Kependudukan</a></li>
+                  <li><a class="dropdown-item" href="kependudukan.php">Kependudukan</a></li>
                 </ul>
                 </li>
                 <li class="nav-item">

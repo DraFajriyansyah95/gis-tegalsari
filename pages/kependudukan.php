@@ -6,7 +6,14 @@
 
 <?php include "../components/header.php"; ?>
 
-    <div id="main-container" class="container min-vh-100 pt-2 pb-5 bg-white"></div>
+    <div id="main-container" class="container min-vh-100 pt-2 pb-5 bg-white">
+    <?php
+    $dataPoints = array( 
+	    array("label"=>"Laki-laki", "y"=>64.02),
+	    array("label"=>"Perempuan", "y"=>12.55),
+        )
+    ;?>
+    </div>
 
 <?php include "../components/footer.php"; ?>
     <script src="<?php echo $js_url;?>main.js"></script>
