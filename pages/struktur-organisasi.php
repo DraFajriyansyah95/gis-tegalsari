@@ -17,7 +17,7 @@
                 <div class="tree">
                     <ul>
                         <li>
-                            <a href="#">Parent</a>
+                            <a href="#">Kepala Desa : Hendi Kiswanto</a>
                             <ul>
                                 <li>
                                     <a href="#">Child</a>

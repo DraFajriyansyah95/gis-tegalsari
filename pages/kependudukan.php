@@ -9,7 +9,7 @@
     <div id="main-container" class="container min-vh-100 p-5 bg-white">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h1>Kependudukan</h1>
+                <h1>Data Kependudukan 2022</h1>
             </div>
         </div>
         <div class="row py-5">
@@ -54,8 +54,8 @@
           datasets: [
             {
               label: 'Dataset 1',
-              data: [150,200],
-              backgroundColor: ['Orange', 'Yellow'],
+              data: [1404,1432],
+              backgroundColor: ['Blue', 'Pink'],
             }
           ]
         };
@@ -64,28 +64,28 @@
           datasets: [
             {
               label: 'Dataset 1',
-              data: [5,2,3,3,4],
+              data: [2586,0,0,0,0],
               backgroundColor: ['Red', 'Orange', 'Yellow', 'Green', 'Blue'],
             }
           ]
         };
         const data_age = {
-          labels: ['0-5 tahun','5-12 tahun','13-17 tahun','18-25 tahun','25-50 tahun','>50 tahun'],
+          labels: ['0-5 tahun','6-12 tahun','13-17 tahun','18-25 tahun','26-50 tahun','<50 tahun'],
           datasets: [
             {
               label: 'Dataset 1',
-              data: [5,2,3,3,4],
-              backgroundColor: ['Red', 'Orange', 'Yellow', 'Green', 'Blue'],
+              data: [226,348,193,335,1072,792],
+              backgroundColor: ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'purple'],
             }
           ]
         };
         const data_study = {
-          labels: ['Tidak Tamat SD', 'SD', 'SMP', 'SMA', 'S1', 'S2', 'S3'],
+          labels: ['SD', 'SMP', 'SMA', 'D2', 'D3', 'S1'],
           datasets: [
             {
               label: 'Dataset 1',
-              data: [5,20,30,20,4,1,0],
-              backgroundColor: ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Grey', 'Lime'],
+              data: [43,28,43,2,1,8],
+              backgroundColor: ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Grey'],
             }
           ]
         };
