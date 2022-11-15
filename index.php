@@ -94,7 +94,7 @@
           <p style="text-align : justify">WebGIS Tegalsari adalah web penyedia informasi yang memanfaatkan jaringan internet sebagai media komunikasi yang menyediakan berbagai informasi yang terdapat di wilayah Desa Tegalsari.</p>
         </div>
         <div class="col-md-6 p-5 align-middle">
-          <img src="<?php echo $image_url;?>footer/Tandatanyaa.jpg" class="d-block w-50"/>
+          <img src="<?php echo $base_url;?>assets/icons/EarthTrans.png" class="d-block w-50"/>
         </div>
       </div>
       <div class="row mt-2">
@@ -103,7 +103,7 @@
           <p style="text-align : justify">WebGIS ini dapat membantu mempermudah mendapatkan informasi terkait batas wilayah, infrastruktur yang terdapat di wilayah Desa Tegalsari.</p>
         </div>
         <div class="col-md-6 p-5 align-middle">
-          <img src="<?php echo $image_url;?>footer/Off.png" class="d-block w-50"/>
+          <img src="<?php echo $base_url;?>assets/icons/Maploc.jpg" class="d-block w-50"/>
         </div>
       </div>
       <div class="row mt-2">
@@ -112,7 +112,7 @@
           <p style="text-align : justify">WebGIS ini menyediakan toolbar yang telah di sediakan yang akan membawa anda berselancar ke berbagai halaman yang memuat informasi spasial di wilayah Desa Tegalsari.</p>
         </div>
         <div class="col-md-6 p-5 align-middle">
-          <img src="<?php echo $image_url;?>footer/On.png" class="d-block w-50"/>
+          <img src="<?php echo $base_url;?>assets/icons/Wb.png" class="d-block w-50"/>
         </div>
       </div>
       </div>

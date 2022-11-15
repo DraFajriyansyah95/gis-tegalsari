@@ -92,7 +92,7 @@
             <p>Saat ini Desa Tegalsari di pimpin oleh Bapak Hendi Kiswanto.</p>
         </div>
         <div class="col-md-6 p-5 align-middle">
-          <img src="<?php echo $image_url;?>footer/adm.png" class="d-block w-100"/>
+          <img src="<?php echo $base_url;?>assets/icons/adm.png" class="d-block w-100"/>
         </div>
       </div>
     </div>

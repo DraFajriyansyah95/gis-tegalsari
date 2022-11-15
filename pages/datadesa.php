@@ -66,8 +66,8 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-md-6 py-5 px-3">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9995.14707271397!2d108.30055462661099!3d-6.899540778896891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f24cb1173be0d%3A0xc859c1f326eaf8e5!2sTegalsari%2C%20Kec.%20Maja%2C%20Kabupaten%20Majalengka%2C%20Jawa%20Barat!5e1!3m2!1sid!2sid!4v1668191024532!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-md-6 py-5 px-2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9995.14707271397!2d108.30055462661099!3d-6.899540778896891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f24cb1173be0d%3A0xc859c1f326eaf8e5!2sTegalsari%2C%20Kec.%20Maja%2C%20Kabupaten%20Majalengka%2C%20Jawa%20Barat!5e1!3m2!1sid!2sid!4v1668191024532!5m2!1sid!2sid" width="468" height="552" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         <div class="row">

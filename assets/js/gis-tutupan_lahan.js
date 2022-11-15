@@ -1695,7 +1695,7 @@
                   },
                   //labelPlacement: "above-right",
                   labelExpressionInfo: {
-                    expression: "$feature.Batas_Admn"
+                    // expression: "$feature.Batas_Admn"
                   },
                   maxScale: 0,
                   minScale: 10000,
