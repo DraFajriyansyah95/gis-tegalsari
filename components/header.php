@@ -31,7 +31,7 @@
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">GIS</a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="<?php echo $base_url;?>pages/arcgis.php">Administrasi</a></li>
+                    <li><a class="dropdown-item" href="<?php echo $base_url;?>pages/arcgis-administrasi.php">Administrasi</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="<?php echo $base_url;?>pages/arcgis-infrastruktur.php">Infrastruktur</a></li>
                     <li><hr class="dropdown-divider"></li>

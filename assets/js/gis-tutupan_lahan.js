@@ -1,4 +1,3 @@
-
       require([
                     /*"esri/config",
                     */"esri/Map",
@@ -1699,7 +1698,7 @@
                   },
                   //labelPlacement: "above-right",
                   labelExpressionInfo: {
-                    expression: "$feature.Batas_Admn"
+                    // expression: "$feature.Batas_Admn"
                   },
                   maxScale: 0,
                   minScale: 10000,
@@ -1990,6 +1989,13 @@
             },
               highlightOptions: {
                 color: "orange"
+              },
+              constraints:{
+                minScale: 15000,
+                maxScale: 0,
+                minZoom: 15,
+                maxZoom: 23,
+                snapToZoom : false
               }
          });
 
@@ -2387,4 +2393,3 @@
           displayMessage(info);
         }
   });
-

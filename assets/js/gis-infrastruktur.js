@@ -1931,6 +1931,13 @@
             },
               highlightOptions: {
                 color: "orange"
+              },
+              constraints:{
+                minScale: 15000,
+                maxScale: 0,
+                minZoom: 15,
+                maxZoom: 23,
+                snapToZoom : false
               }
          });
 

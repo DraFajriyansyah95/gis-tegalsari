@@ -1,4 +1,3 @@
-
       require([
                     /*"esri/config",
                     */"esri/Map",
@@ -1597,7 +1596,7 @@
                     expression: "'Dusun '+$feature.Nama_Dusun+' RT '+$feature.No_RT"
                   },
                   maxScale: 0,
-                  minScale: 5000,
+                  minScale: 15000,
                   //where: "Conference = 'AFC'"
                 },
                 'Tutupan_Lahan' :
@@ -1699,7 +1698,7 @@
                   },
                   //labelPlacement: "above-right",
                   labelExpressionInfo: {
-                    expression: "$feature.Batas_Admn"
+                    // expression: "$feature.Batas_Admn"
                   },
                   maxScale: 0,
                   minScale: 10000,
@@ -1971,9 +1970,7 @@
           });*/
 
           const map = new Map({
-            basemap: "satellite",
-            minZoom: 5,
-            maxZoom: 8
+            basemap: "satellite"
           });
 
         let viewNode = document.getElementById("viewDiv");
@@ -1992,6 +1989,13 @@
             },
               highlightOptions: {
                 color: "orange"
+              },
+              constraints:{
+                minScale: 15000,
+                maxScale: 0,
+                minZoom: 15,
+                maxZoom: 23,
+                snapToZoom : false
               }
          });
 
@@ -2389,4 +2393,3 @@
           displayMessage(info);
         }
   });
-
