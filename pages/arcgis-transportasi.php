@@ -45,6 +45,7 @@
       <div class="row">
         <div class="col-md-12">
           <div id="viewDiv" class="w-100 bg-white" style="height: calc(100vh - 110px);"></div>
+          <div id="outputMessages" class="esri-widget"></div>
           <div id="elementsDiv"></div>
           <div id="legendDiv"></div>
             <div id="topbar">

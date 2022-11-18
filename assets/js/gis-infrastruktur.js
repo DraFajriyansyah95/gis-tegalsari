@@ -35,6 +35,8 @@
                     "esri/widgets/AreaMeasurement2D",
                     "esri/widgets/Feature",
                     "esri/core/promiseUtils",
+                    "esri/core/reactiveUtils",
+                    "esri/geometry/Point"
                     ],
 
         function (
@@ -72,7 +74,9 @@
                     DistanceMeasurement2D,
                     AreaMeasurement2D,
                     Feature,
-                    promiseUtils
+                    promiseUtils,
+                    reactiveUtils,
+                    Point
                     ) {
 
         var activeWidget = null;
@@ -2212,5 +2216,116 @@
             });*/
         //}
 
+        const outputMessages = document.getElementById("outputMessages");
+
+        view
+          .when(() => {
+            // This function will execute once the promise is resolved
+            displayMessage(
+              `<br> <span> view.when </span> --- view loaded successfully`
+            );
+          })
+          .catch(errorHandler);
+
+        //*******************************************************************
+        // Listening to events
+        // 1. Layer change event on layers collection
+        // 2. layerview-create event on the view
+        // 3. click event on the view.
+        //*******************************************************************
+
+        // Listen to layer change events on all of map's layers
+        // Only listening to layer added event in this case.
+        view.map.allLayers.on("change", (event) => {
+          // change event fires after an item has been added, moved or removed from the collection.
+          // event.moved - an array of moved layers
+          // event.removed - an array of removed layers
+          // event.added returns an array of added layers
+          if (event.added.length > 0) {
+            event.added.forEach((layer) => {
+              const info = `<br> <span> layer added: </span> ${layer.title}`;
+              displayMessage(info);
+            });
+          }
+        });
+
+        // Listen to layerview create event for the layers
+        /*view.on("layerview-create", (event) => {
+          const info = `<br> <span> layerview-create </span> - ${event.layer.title} is ${event.layer.loadStatus}`;
+          displayMessage(info);
+        });*/
+        
+        /*
+        // Listen the view's click event.
+        view.on("click", (event) => {
+          const info = `<br> <span> view click event: </span>
+            x: ${event.mapPoint.x.toFixed(2)}
+            y: ${event.mapPoint.y.toFixed(2)}`;
+          displayMessage(info);
+        });*/
+
+        //*******************************************************************
+        // Watching properties for changes
+        // 1. Watch view.stationary property
+        // 2. Watch visible property of popup
+        //*******************************************************************
+        // Watch view's stationary property for becoming true.
+        reactiveUtils.when(
+          () => view.stationary === true,
+          () => {
+            // Get the new center of the view only when view is stationary.
+            if (view.center) {
+              const info = `<br> <span> the view center changed. </span>
+              x: ${view.center.x.toFixed(2)}
+              y: ${view.center.y.toFixed(2)}`;
+              displayMessage(info);
+            }
+            // Get the new extent of the view only when view is stationary.
+            if (view.extent) {
+              const info = `<br> <span> the view extent changed: </span>
+              <br> xmin: ${view.extent.xmin.toFixed(2)}
+              xmax: ${view.extent.xmax.toFixed(2)}
+              <br> ymin: ${view.extent.ymin.toFixed(2)}
+              ymax: ${view.extent.ymax.toFixed(2)}`;
+
+              var xmin = view.extent.xmin.toFixed(2);
+              var xmax = view.extent.xmax.toFixed(2);
+              var ymin = view.extent.ymin.toFixed(2);
+              var ymax = view.extent.ymax.toFixed(2);
+
+              if(
+                xmin > 12059748.90 ||
+                xmax < 12052268.42 ||
+                ymin >  -768226.14 ||
+                ymax < -771645.90
+              ){
+                view.center = new Point(108.3049667,-6.899219);
+              }
+              //displayMessage(info);
+            }
+          }
+        );
+
+        // watch popup's visible property to determine when the popup is
+        // visible or not visible.
+        view.popup.watch("visible", (visible) => {
+          const info = `<br> <span> view popup visible </span> = ${visible}`;
+          //displayMessage(info);
+        });
+
+        function displayMessage(info) {
+          outputMessages.innerHTML += info;
+          outputMessages.scrollTop = outputMessages.scrollHeight;
+        }
+
+        // This function will execute if the promise is rejected
+        function errorHandler(error) {
+          if (error.name && error.message) {
+            const info = `<br><span style=" color: red;"> ${error.name} ${error.message} </span>`;
+          } else {
+            const info = `<br><span style=" color: red;"> ${error} </span>`;
+          }
+          displayMessage(info);
+        }
   });
 
