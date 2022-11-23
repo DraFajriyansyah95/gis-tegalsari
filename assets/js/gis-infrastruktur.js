@@ -165,7 +165,8 @@
                 {
                     'ADMINISTRASIAR' : 
                     {
-                      title: "Informasi ADMINISTRASIAR",
+                      title: "Batas Wilayah",
+                       title_layer: "Batas Wilayah",
                       //content: populationChange,   
                       content:[
                       {
@@ -262,7 +263,8 @@
                     },
                     'ADMINISTRASILN' : 
                     {
-                      title: "Informasi ADMINISTRASILN",
+                      title: "Garis Wilayah",
+                      title_layer: "Garis Wilayah ",
                       //content: populationChange,   
                       content:[
                       {
@@ -320,6 +322,7 @@
                     'ADMINISTRASIPT' : 
                     {
                       title: "Informasi ADMINISTRASIPT",
+                      title_layer: " ",
                       //content: populationChange,   
                       content:[
                       {
@@ -384,8 +387,9 @@
                     },
                     'BANGUNANFASUMAR' : 
                     {
-                      title: "Informasi BANGUNANFASUMAR",
-                      //content: populationChange,   
+                      title: "Bangunan",
+                      title_layer: "Bangunan",
+                      //content: populationChange,
                       content:[
                       {
                           type: 'fields',
@@ -489,64 +493,81 @@
                     },
                     'Bendungan' : 
                     {
-                      title: "Informasi Bendungan",
-                      //content: populationChange,   
-                      content:[
-                      {
-                          type: 'fields',
-                          fieldInfos: [{
-                            fieldName: "Jenis",
-                            label: "Jenis"/*,
-                            format: {
-                              digitSeparator: true,
-                              places: 0
-                              },*/
+                      title: "Bendungan",
+                      title_layer: "Bendungan",
+                      //content: populationChange,   ,
+                      outFields: ['*'],
+                      content:
+                      [
+                        {
+                            type: 'fields',
+                            fieldInfos: [
+                            {
+                              fieldName: "Jenis",
+                              label: "Jenis"/*,
+                              format: {
+                                digitSeparator: true,
+                                places: 0
+                                },*/
+                            },
+                            {
+                              fieldName: "OBJECTID",
+                              label: "OBJECTID"/*,
+                              format: {
+                                digitSeparator: true,
+                                places: 0
+                                },*/
+                            },
+                            {
+                              fieldName: "Jenis",
+                              label: "Jenis"/*,
+                              format: {
+                                digitSeparator: true,
+                                places: 0
+                                },*/
+                            },
+                            {
+                              fieldName: "Nm_Bndgn",
+                              label: "Nm_Bndgn"/*,
+                              format: {
+                                digitSeparator: true,
+                                places: 0
+                                },*/
+                            },
+                            {
+                              fieldName: "Sumber",
+                              label: "Sumber"/*,
+                              format: {
+                                digitSeparator: true,
+                                places: 0
+                                },*/
+                            },
+                            {
+                              fieldName: "Foto_1",
+                              label: "Foto_1"/*,
+                              format: {
+                                digitSeparator: true,
+                                places: 0
+                                }*/
+                            }]
                           },
                           {
-                            fieldName: "OBJECTID",
-                            label: "OBJECTID"/*,
-                            format: {
-                              digitSeparator: true,
-                              places: 0
-                              },*/
-                          },
-                          {
-                            fieldName: "Jenis",
-                            label: "Jenis"/*,
-                            format: {
-                              digitSeparator: true,
-                              places: 0
-                              },*/
-                          },
-                          {
-                            fieldName: "Nm_Bndgn",
-                            label: "Nm_Bndgn"/*,
-                            format: {
-                              digitSeparator: true,
-                              places: 0
-                              },*/
-                          },
-                          {
-                            fieldName: "Sumber",
-                            label: "Sumber"/*,
-                            format: {
-                              digitSeparator: true,
-                              places: 0
-                              },*/
-                          },
-                          {
-                            fieldName: "Foto_1",
-                            label: "Foto_1"/*,
-                            format: {
-                              digitSeparator: true,
-                              places: 0
-                              }*/
-                            }]   
-                        }],
+                            type: 'media',
+                            mediaInfos: [
+                              {
+                                type: 'image',
+                                value: {
+                                  sourceURL: base_url+'assets/images/Foto_1/{Foto_1}'
+                                }
+                              }
+                            ]
+                          }
+                      ]
                     },
                     'HIDROGRAFIAR' : 
                     {
-                      title: "Informasi HIDROGRAFIAR",
+                      title: "Area Perairan",
+                      title_layer: "Area Perairan",
                       //content: populationChange,   
                       content:[
                       {
@@ -627,7 +648,8 @@
                     },
                     'Perairan' : 
                     {
-                      title: "Informasi Perairan",
+                      title: "Garis Perairan",
+                      title_layer: "Garis Perairan",
                       //content: populationChange,   
                       content:[
                       {
@@ -692,7 +714,8 @@
                     },
                     'TRANSPORTASILN' : 
                     {
-                      title: "Informasi TRANSPORTASILN",
+                      title: "Jaringan Jalan",
+                      title_layer: "Jaringan Jalan",
                       //content: populationChange,   
                       content:[
                       {
@@ -757,7 +780,8 @@
                     },
                     'TRANSPORTASIPT' : 
                     {
-                      title: "Informasi TRANSPORTASIPT",
+                      title: "Jembatan",
+                      title_layer: "Jembatan",
                       //content: populationChange,   
                       content:[
                       {
@@ -817,12 +841,30 @@
                               digitSeparator: true,
                               places: 0
                               }*/
-                            }]   
+                          }]
+                        },
+                        {
+                          type: 'media',
+                          mediaInfos: [
+                            {
+                              type: 'image',
+                              value: {
+                                sourceURL: base_url+'assets/images/Foto_1/{Foto_1}'
+                              }
+                            },
+                            {
+                              type: 'image',
+                              value: {
+                                sourceURL: base_url+'assets/images/Foto_2/{Foto_2}'
+                              }
+                            }
+                          ]
                         }],
                     },
                     'Toponimi' : 
                     {
-                      title: "Informasi Toponimi",
+                      title: "Titik Toponimi",
+                      title_layer: "Titik Toponimi",
                       //content: populationChange,   
                       content:[
                       {
@@ -883,11 +925,29 @@
                               places: 0
                               }*/
                             }]   
+                        },
+                        {
+                          type: 'media',
+                          mediaInfos: [
+                            {
+                              type: 'image',
+                              value: {
+                                sourceURL: base_url+'assets/images/Foto_1/{Foto_1}'
+                              }
+                            },
+                            {
+                              type: 'image',
+                              value: {
+                                sourceURL: base_url+'assets/images/Foto_2/{Foto_2}'
+                              }
+                            }
+                          ]
                         }],
                     },
                     'Tutupan_Lahan' : 
                     {
-                      title: "Informasi Tutupan_Lahan",
+                      title: "Tutupan Lahan",
+                      title_layer: "Tutupan Lahan",
                       //content: populationChange,   
                       content:[
                       {
@@ -1769,7 +1829,7 @@
               base_url+"assets/json/TRANSPORTASILN.json",
               base_url+"assets/json/TRANSPORTASIPT.json",
               base_url+"assets/json/Bendungan.json",
-              base_url+"assets/json/Toponimi.json",
+              base_url+"assets/json/Toponimi.json"
             ];
 
             /*
@@ -2086,7 +2146,7 @@
             //console.log(styles);
             var geojsonLayer = new GeoJSONLayer({
               url: v,
-              title: file_name,
+              title: popupTemplates[file_name]['title_layer'],
               renderer: styles[file_name],
               copyright: "Tegal Sari",
               popupTemplate : popupTemplates[file_name],
@@ -2100,7 +2160,7 @@
                       map: map,
                       layerInfos: [{
                           layer: results,
-                          title: file_name
+                          title: popupTemplates[file_name]['title_layer'],
                       }]
                   }, "legendDiv");
                   legend.startup();
