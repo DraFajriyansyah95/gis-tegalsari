@@ -86,9 +86,9 @@
       <div class="row mt-2">
         <div class="col-md-6 text-start, p-5 align-middle" style="text-align : justify">
           <h2>Sejarah Desa Tegalsari</h2>
-          <p>Runtuhnya kerajaan Mataram pada tahun 1489 merupakan awal berdirinya Desa Tegalsari yang pada waktu itu masih bernama Tegalcawet. Sebagaimana umumnya desa pada masa itu, roda pemerintahan Desa Tegalcawet belum tertata baik. Pada tahun 1920 Desa Tegalcawet dipmpin oleh Abah Nara sebagai generasi pertama.</p>
-            <p>Berbatasan dengan Desa Tegalcawet terdapat sebuah perkampungan dengan nama Kampung Lentuk yang dipimpin oleh Bapak Lingga, sekitar tahun 1927 antara Tegalcawet dan Kampung Lentuk akhirnya menyatakan untuk bersatu.</p> 
-            <p>Perubahan - perubahan banyak dilakukan yang pada akhirnya Desa Tegalcawet berubah menjadi Desa Tegalsari dan Kampung Lentuk menjadi Karangsari. Perubahan ini tercatat sekitar 1 Juni 1964 ketika Dipimpin oleh Bapak Isa Muhammad.</p>
+          <p>Runtuhnya kerajaan Mataram pada tahun 1489 merupakan awal berdirinya Desa Tegalsari yang pada waktu itu masih bernama Kampung Tegalcawet yang dipimpin oleh Abah Nara sebagai generasi pertama pada tahun 1910. Berbatasan dengan Kampung Tegalcawet terdapat sebuah desa dengan nama Desa Lentuk yang dipimpin oleh Bapak Lingga pada sekitar 1860. </p>
+            <p>Sebelum terbentuknya Desa Tegalcawet, antara Bapak Kuwu Lingga dengan Abah Nara bersepakat untuk menyatukan Desa Lentuk dan Kampung Tegalcawet menjadi Desa Tegalcawet. Sekitar tahun 1917 antara Kampung Tegalcawet dan Desa Lentuk akhirnya menyatakan untuk bersatu menjadi Desa Tegalcawet yang pada saat itu desa nya di pimpinan oleh Bapak Taba Mujtaba.</p> 
+            <p>Perubahan - perubahan banyak dilakukan yang pada akhirnya Kampung Tegalcawet berubah menjadi Desa Tegalsari dan Blok Lentuk menjadi Dusun Karangsari. Perubahan ini tercatat sekitar 1 Juni 1968 ketika Dipimpin oleh Bapak Isa Muhammad.</p>
             <p>Saat ini Desa Tegalsari di pimpin oleh Bapak Hendi Kiswanto.</p>
         </div>
         <div class="col-md-6 p-5 align-middle">
