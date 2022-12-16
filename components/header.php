@@ -37,7 +37,7 @@
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="<?php echo $base_url;?>pages/arcgis-transportasi.php">Transportasi</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="<?php echo $base_url;?>pages/arcgis-tutupan_lahan.php">Tutupan Lahan</a></li>
+                    <li><a class="dropdown-item" href="<?php echo $base_url;?>pages/arcgis-tutupan_lahan.php">Penggunaan Lahan</a></li>
                   </ul>
                 </li>
               </ul>

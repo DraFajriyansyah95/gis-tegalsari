@@ -39,8 +39,8 @@
               <div class="carousel-item" data-bs-interval="10000">
                 <img src="<?php echo $image_url;?>sliders/Muludan.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Kegiatan Rohani Muludan</h5>
-                  <p>Kegiatan Tahunan Muludan Warga Desa Tegalsari Di MAsjid Nurul Iman.</p>
+                  <h5>Kegiatan Rohani Maulid Nabi</h5>
+                  <p>Kegiatan Tahunan Maulid Nabi Warga Desa Tegalsari Di Masjid Nurul Iman.</p>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="10000">
@@ -51,26 +51,26 @@
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="10000">
-                <img src="<?php echo $image_url;?>sliders/Penyemprotan_Fogging.jpg" class="d-block w-100" alt="...">
+                <img src="<?php echo $image_url;?>sliders/Ronda.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Pembasmian Nyamuk</h5>
-                  <p>Kegiatan Pembasmian Nyamuk Untuk Mengurangi Angka Penyakit Malaria.</p>
-                </div>
-              </div>
-              <!-- <div class="carousel-item" data-bs-interval="10000">
-                <img src="<?php echo $image_url;?>sliders/Musala_Miftahul_jannah.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
+                  <h5>Ronda</h5>
+                  <p>Kegiatan Warga Menjaga Keamanan Di Lingkingan Desa Tegalsari.</p>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="10000">
-                <img src="<?php echo $image_url;?>sliders/Istana_Stable_Equestrian_Park.jpg" class="d-block w-100" alt="...">
+                <img src="<?php echo $image_url;?>sliders/Saluran_Drainase.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
+                  <h5>Pembangunan Jalur Drainase</h5>
+                  <p>Kegiatan Pembuatan Jalur Drainase Di Lingkungan Masjid Nurul Iman.</p>
                 </div>
-              </div> -->
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="<?php echo $image_url;?>sliders/Tanam_Pohon.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Tanam Pohon</h5>
+                  <p>Kegiatan Penanaman Pohon Untuk Pelestarian Lingkungan.</p>
+                </div>
+              </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
