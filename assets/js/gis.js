@@ -897,8 +897,8 @@
                     },
                     'Tutupan_Lahan' : 
                     {
-                      title: "Tutupan Lahan",
-                      title_layer: "Tutupan Lahan",
+                      title: "Penggunaan Lahan",
+                      title_layer: "Penggunaan Lahan",
                       //content: populationChange,   
                       content:[
                       {

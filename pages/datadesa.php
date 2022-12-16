@@ -85,127 +85,133 @@
                    <tbody>
                     <tr>
                     <td width="36">1</td>
-                    <td width="178">Abah Nara</td>
+                    <td width="178">Abah Lingga</td>
                     <td width="143">Kepala Desa</td>
-                    <td width="151">- s/d -</td>
+                    <td width="151">1860 s/d 1910</td>
                     </tr>
                     <tr>
                     <td width="36">2</td>
-                    <td width="178">Abah Saer</td>
+                    <td width="178">Abah Nara</td>
                     <td width="143">Kepala Desa</td>
-                    <td width="151">- s/d -</td>
+                    <td width="151">1910 s/d 1917</td>
                     </tr>
                     <tr>
                     <td width="36">3</td>
-                    <td width="178">Abah Satria</td>
+                    <td width="178">Bapak Taba Mujtaba</td>
                     <td width="143">Kepala Desa</td>
-                    <td width="151">- s/d -</td>
+                    <td width="151">1917 s/d 1920</td>
                     </tr>
                     <tr>
                     <td width="36">4</td>
-                    <td width="178">Bpk. Sukadikrama</td>
+                    <td width="178">Abah Saer</td>
                     <td width="143">Kepala Desa</td>
-                    <td width="151">- s/d -</td>
+                    <td width="151">1920 s/d 1923</td>
                     </tr>
                     <tr>
                     <td width="36">5</td>
-                    <td width="178">Bpk. Marsati</td>
+                    <td width="178">Abah Satria</td>
                     <td width="143">Kepala Desa</td>
-                    <td width="151">- s/d -</td>
+                    <td width="151">1923 s/d 1926</td>
                     </tr>
                     <tr>
                     <td width="36">6</td>
-                    <td width="178">Bpk. Asni</td>
+                    <td width="178">Bapak Sukadikrama</td>
                     <td width="143">Kepala Desa</td>
-                    <td width="151">- s/d -</td>
+                    <td width="151">1926 s/d 1930</td>
                     </tr>
                     <tr>
                     <td width="36">7</td>
-                    <td width="178">Bpk. Jamsari</td>
+                    <td width="178">Bapak Marsati</td>
                     <td width="143">Kepala Desa</td>
-                    <td width="151">- s/d -</td>
+                    <td width="151">1930 s/d 1933</td>
                     </tr>
                     <tr>
                     <td width="36">8</td>
-                    <td width="178">Bpk. Madhanan</td>
+                    <td width="178">Bapak Asni</td>
                     <td width="143">Kepala Desa</td>
-                    <td width="151">- s/d -</td>
+                    <td width="151">1933 s/d 1937</td>
                     </tr>
                     <tr>
                     <td width="36">9</td>
-                    <td width="178">Bpk. Lingga</td>
+                    <td width="178">Bapak Jamsari</td>
                     <td width="143">Kepala Desa</td>
-                    <td width="151">- s/d -</td>
+                    <td width="151">1937 s/d 1943</td>
                     </tr>
                     <tr>
                     <td width="36">10</td>
-                    <td width="178">Bpk. Mujtaba</td>
+                    <td width="178">Bapak Madhanan</td>
+                    <td width="143">Kepala Desa</td>
+                    <td width="151">1943 s/d 1945</td>
+                    </tr>
+                    <tr>
+                    <td width="36">11</td>
+                    <td width="178">Bapak Taba Mujtaba</td>
                     <td width="143">Kepala Desa</td>
                     <td width="151">1945 s/d 1952</td>
                     </tr>
                     <tr>
-                    <td width="36">11</td>
-                    <td width="178">Bpk. Parta</td>
+                    <td width="36">12</td>
+                    <td width="178">Bapak Parta</td>
                     <td width="143">Kepala Desa</td>
                     <td width="151">1952 s/d 1960</td>
                     </tr>
                     <tr>
-                    <td width="36">12</td>
-                    <td width="178">Bpk. M.hadi</td>
+                    <td width="36">13</td>
+                    <td width="178">Bapak M.Hadi</td>
                     <td width="143">Kepala Desa</td>
-                    <td width="151">1961 s/d 1972</td>
+                    <td width="151">1961 s/d 1962</td>
                     </tr>
                     <tr>
-                    <td width="36">13</td>
-                    <td width="178">Bpk. Isa Muhammad</td>
+                    <td width="36">14</td>
+                    <td width="178">Bapak Isa Muhammad</td>
                     <td width="143">Kepala Desa</td>
                     <td width="151">1963 s/d 1968</td>
                     </tr>
                     <tr>
-                    <td width="36">14</td>
-                    <td width="178">Bpk. Juanaeni</td>
+                    <td width="36">15</td>
+                    <td width="178">Bapak Juanaeni</td>
                     <td width="143">Kepala Desa</td>
                     <td width="151">1969 s/d 1971</td>
                     </tr>
-                    <tr>
-                    <td width="36">15</td>
-                    <td width="178">Bpk. Isa Muhammad</td>
+                    <td width="36">16</td>
+                    <td width="178">Bapak Isa Muhammad</td>
                     <td width="143">Kepala Desa</td>
                     <td width="151">1972 s/d 1981</td>
                     </tr>
-                    <td width="36">16</td>
-                    <td width="178">Bpk. Naming</td>
+                    <td width="36">17</td>
+                    <td width="178">Bapak Naming</td>
                     <td width="143">Kepala Desa</td>
                     <td width="151">1981 s/d 1986</td>
                     </tr>
-                    <td width="36">17</td>
-                    <td width="178">Bpk. dusing</td>
+                    <td width="36">18</td>
+                    <td width="178">Bapak Duding</td>
                     <td width="143">Kepala Desa</td>
                     <td width="151">1987 s/d 1989</td>
                     </tr>
-                    <td width="36">18</td>
-                    <td width="178">Bpk. M.Hadi</td>
+                    <td width="36">19</td>
+                    <td width="178">Bapak M.Hadi</td>
                     <td width="143">Kepala Desa</td>
                     <td width="151">1990 s/d 1997</td>
                     </tr>
-                    <td width="36">19</td>
-                    <td width="178">Bpk. Saeful Uyun</td>
+                    <td width="36">20</td>
+                    <td width="178">Bapak Saeful Uyun/td>
                     <td width="143">Kepala Desa</td>
                     <td width="151">1998 s/d 2008</td>
                     </tr>
-                    <td width="36">20</td>
-                    <td width="178">Bpk. Hendi Kiswanto</td>
+                    <td width="36">21</td>
+                    <td width="178">Bapak Hendi Kiswanto</td>
                     <td width="143">Kepala Desa</td>
                     <td width="151">2009 s/d 2014</td>
                     </tr>
-                    <td width="36">21</td>
-                    <td width="178">Bpk. Asep Saepudin</td>
-                    <td width="143">Kepala Desa</td>
-                    <td width="151">2017 s/d 2021</td>
-                    </tr>
                     <tr>
                     <td width="36">22</td>
-                    <td width="178">Bpk. Hendi Kiswanto</td>
+                    <td width="178">Bapak Asep Saepudin</td>
+                    <td width="143">Kepala Desa</td>
+                    <td width="151">2015 s/d 2021</td>
+                    </tr>
+                    <tr>
+                    <td width="36">23</td>
+                    <td width="178">Bpk. Hendi Kiswanto Asep Saepudin</td>
                     <td width="143">Kepala Desa</td>
                     <td width="151">2021 s/d sekarang</td>
                     </tr>

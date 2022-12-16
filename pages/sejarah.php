@@ -86,9 +86,10 @@
       <div class="row mt-2">
         <div class="col-md-6 text-start, p-5 align-middle" style="text-align : justify">
           <h2>Sejarah Desa Tegalsari</h2>
-          <p>Runtuhnya kerajaan Mataram pada tahun 1489 merupakan awal berdirinya Desa Tegalsari yang pada waktu itu masih bernama Kampung Tegalcawet yang dipimpin oleh Abah Nara sebagai generasi pertama pada tahun 1910. Berbatasan dengan Kampung Tegalcawet terdapat sebuah desa dengan nama Desa Lentuk yang dipimpin oleh Bapak Lingga pada sekitar 1860. </p>
-            <p>Sebelum terbentuknya Desa Tegalcawet, antara Bapak Kuwu Lingga dengan Abah Nara bersepakat untuk menyatukan Desa Lentuk dan Kampung Tegalcawet menjadi Desa Tegalcawet. Sekitar tahun 1917 antara Kampung Tegalcawet dan Desa Lentuk akhirnya menyatakan untuk bersatu menjadi Desa Tegalcawet yang pada saat itu desa nya di pimpinan oleh Bapak Taba Mujtaba.</p> 
-            <p>Perubahan - perubahan banyak dilakukan yang pada akhirnya Kampung Tegalcawet berubah menjadi Desa Tegalsari dan Blok Lentuk menjadi Dusun Karangsari. Perubahan ini tercatat sekitar 1 Juni 1968 ketika Dipimpin oleh Bapak Isa Muhammad.</p>
+          <p>Runtuhnya kerajaan Mataram pada tahun 1489 merupakan awal berdirinya Desa Tegalsari yang pada waktu itu masih bernama Kampung Tegalcawet yang dipimpin oleh Abah Nara sebagai generasi pertama pada tahun 1910, Dan berbatasan dengan Kampung Tegalcawet terdapat sebuah desa dengan nama Desa Lentuk yang dipimpin oleh Bapak Kuwu Lingga pada sekitar 1860. </p>
+            <p>Sebelum terbentuknya Desa Tegalcawet, antara Bapak Kuwu Lingga dengan Abah Nara bersepakat untuk menyatukan Desa Lentuk dan Kampung Tegalcawet menjadi Desa Tegalcawet. Sekitar tahun 1917 antara Kampung Tegalcawet dan Desa Lentuk akhirnya menyatakan untuk bersatu menjadi Desa Tegalcawet yang pada saat itu desa di pimpinan oleh Bapak Taba Mujtaba.</p> 
+            <p>Banyak perubahan dilakukan sekitar tahun 1964, yaitu perubahan Desa Tegalcawet menjadi Desa Tegalsari dan pada tanggal 1 tahun 1968 Blok Lentuk menjadi Blok Karangsari, perubahan ini Ketika pemerintahannya dipimpin oleh Bapak Isa Muhammad.</p>
+            <p>Kemudian dari tahun 1968 - 1998 di Desa Tegalsari ada beberapa blok yaitu : Blok Karangsari, Blok Lebe, Blok Bihi, Blok Umi, Blok Peuntas (Blok Kapala), dan Blok Galumpit. Lalu pada tahun 1999 ketika masa pemerintahan kepala desa yang dipimpin oleh Bapak Saeful Uyun dibentuklah nama Blok menjadi Dusun yang berjumlah 3 Dusun yaitu Dusun Karangsari, Dusun Mekarsari, dan Dusun Mulyasari.</p>
             <p>Saat ini Desa Tegalsari di pimpin oleh Bapak Hendi Kiswanto.</p>
         </div>
         <div class="col-md-6 p-5 align-middle">
