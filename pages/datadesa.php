@@ -72,7 +72,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <h2>Table Pimpinan Desa</h2>
+                <h2>Tabel Pimpinan Desa</h2>
                 <table class="table table-stripped">
                     <thead>
                         <tr>
